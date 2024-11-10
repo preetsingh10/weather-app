@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <h1 class="heading">Weather App</h1>
+    <div class="weather-container">
+
+        <form class="location-form">
+
+            <input type="text" name="location" id="location" placeholder="Enter a Location: ">
+
+            <button class="search" type="submit"> Search </button>
+        </form>
+
+        <div class="celsius-toogle-container">
+            <h2>Temprature in Celsius ºC</h2>
+            <label class="simple-switch">
+                <input class="celsius-switch" type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+      
+
+        <div class="weather-information">
+            <h2>Location: </h2><span>
+                <h3 class="location-data"></h3>
+            </span>
+            <h2>Conditions: </h2><span>
+                <h3 class="conditions"></h3>
+            </span>
+            <h2>Feels Like: </h2><span>
+                <h3 class="feels-like"></h3>
+            </span>
+            <h2>Temprature: </h2><span>
+                <h3 class="temprature"></h3>
+            </span>
+            <h2>Wind Speed: </h2><span>
+                <h3 class="wind-speed"></h3>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>
